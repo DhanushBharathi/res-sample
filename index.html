@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fresher Resume</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <script src="https://kit.fontawesome.com/c13873180f.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+    }
+    
+    .header {
+      background-color: #343a40;
+      color: #ffffff;
+      padding: 6vh;
+      text-align: center;
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 0;
+    }
+    
+    .header h1 {
+      font-size: 6vh;
+      margin-bottom: 2vh;
+    }
+    
+    .header p {
+      font-size: 3vh;
+      margin-bottom: 0;
+    }
+    
+    .container {
+      background-color: #ffffff;
+      padding: 6vh;
+      margin: 6vh auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .profile-pic {
+      width: 25vh;
+      height: 25vh;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 0;
+      margin-top: 0;
+      overflow: hidden;
+    }
+
+    .section-heading {
+      margin-top: 6vh;
+      margin-bottom: 4vh;
+    }
+    
+    .skills ul {
+      columns: 2;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .edu{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 0;
+    }
+
+    .skills{
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      gap: 2vh;
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .skills div{
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .image{
+      height: 25vh;
+      width: 25vh;
+    }
+
+    .projects{
+      display: grid;
+      grid-template-columns: auto auto;
+      gap: 2vh;
+    }
+    .projects div{
+      padding: 2vh;
+      border: 2px solid black;
+    }
+    .contact-info a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .hobbies{
+      display: grid;
+      grid-template-columns: auto auto auto auto auto auto auto;
+      gap: 2vh;
+    }
+
+    .hobbies ul {
+      list-style-type: none;
+      padding-left: 3vh;
+    }
+    
+    .awards ul {
+      padding-left: 2vh;
+      font-size: 4vh;
+    }
+    
+    .languages ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .languages{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      gap: 0;
+    }
+
+    .languages div{
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    @media (max-width: 768px) {
+      .container {
+        padding: 3vh;
+      }
+      
+      .profile-pic {
+        width: 12vh;
+        height: 12vh;
+      }
+      
+      .header h1 {
+        font-size: 4vh;
+        margin-bottom: 1vh;
+      }
+      
+      .header p {
+        font-size: 2vh;
+      }
+    }
+    .heading{
+      background-color: grey;
+    }
+
+    .social{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: center;
+      gap: 2vh;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="col-md-6">
+      <img src="img/me2.jpg" alt="Your Photo" class="profile-pic">
+    </div>
+    <div class="detail">
+    <h1>DHANUSH BHARATHI</h1>
+    <p>Programmer | WebDeveloper | Fresher</p>
+  </div>
+</div>
+  
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="heading">About Me</h2>
+        <p>A Learning Freak, Always Keeps Me Hungrier To Learn New And More</p>
+      </div>
+    </div>
+    
+    <div class="section-heading">
+      <h2 class="heading">Education</h2>
+    </div>
+
+    <div class="row">
+        <div class="container-fluid well">
+        <div class="edu">
+      <div class="col-md-12">
+        <h4>Bachelors Degree</h4>
+        <p>Einstein College of Engineeering, (2020-Present)</p>
+        <p>Secured With 7.8 CGPA (Till 5th sem)</p>
+      </div>
+      <div class="col-md-12">
+        <h4>HSC</h4>
+        <p>Merit Matriculation Hr. Sec. School, (2019-2020)</p>
+        <p>Secured With 65.7%</p>
+      </div>
+      <div class="col-md-12">
+        <h4>SSLC</h4>
+        <p>Merit Matriculation Hr. Sec. School, (2017-2018)</p>
+        <p>Secured With 81%</p>
+      </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="section-heading">
+      <h2 class="heading">Skills</h2>
+    </div>
+    <div class="skills">
+      <div><img src="img/py.jpg" alt="python" class="image"></div>
+      <div><img src="img/java.jpg" alt="python" class="image"></div>
+      <div><img src="img/c.jpg" alt="python" class="image"></div>
+      <div><img src="img/cpp.jpg" alt="python" class="image"></div>
+      <div><img src="img/html1.jpg" alt="python" class="image"></div>
+      <div><img src="img/css.jpg" alt="python" class="image"></div>
+      <div><img src="img/js.jpg" alt="python" class="image"></div>
+      <div><img src="img/php.jpg" alt="python" class="image"></div>
+      <div><img src="img/boot.jpg" alt="python" class="image"></div>
+      <div><img src="img/mysql.jpg" alt="python" class="image"></div>
+      <div><img src="img/jup.jpg" alt="python" class="image"></div>
+      <div><img src="img/android.jpg" alt="python" class="image"></div>
+      <div><img src="img/canva.jpg" alt="python" class="image"></div>
+      <div><img src="img/ps.jpg" alt="python" class="image"></div>
+      <div><img src="img/video.jpg" alt="python" class="image"></div>
+    </div>
+    
+    <div class="section-heading">
+      <h2 class="heading">Projects</h2>
+    </div>
+    <div class="projects">
+      <div><ul><li><h2>Students Management System (FULL STACK)</h2></li></ul>
+      <h4> Project Submitted For MiniProjectLab.It Can Manage And Handle The Students Data</h4>
+      </div>
+      <div><ul><li><h2>Garbage Classification Using Machine Learning</h2></li></ul>
+      <h4> Project Submitted For NaanMudhalvan.It Is Used To Classify The Waste And Handle With Care</h4>
+      </div>
+      <div><ul><li><h2>Face Recognition And Attendance System(Python)</h2></li></ul>
+      <h4> Project That Recognize The Face And Put Attendance For The Student</h4>
+      </div>
+      <div><ul><li><h2>Simple Tools Using Python</h2></li></ul>
+      <h4>Tools Such as Pdf Convertor,NotePad,Video To Audio Convertor etc.</h4>
+      </div>
+      <div><ul><li><h2>Food Ordering System (FULL STACK)</h2></li></ul>
+      <h4>Project That Handles The Food Ordered And Payment Details</h4>
+      </div>
+    </div>
+    
+    <div class="section-heading">
+      <h2 class="heading">Awards</h2>
+    </div>
+    <div class="awards">
+      <ul>
+        <li>Certificate from IBM for the completion of IBM Cloud Management</li>
+        <li>Certificate from AWS for the completion of AWS Cloud Flare</li>
+        <li>Certificate from NaanMudhalvan for successfull Completion Of course(Cloud Essential)</li>
+        <li>Certificate from NaanMudhalvan for successfull Completion Of course(Professional Readiness for Innovation,Employment & Enterpreneurship)</li>
+      </ul>
+    </div>
+    
+    <div class="section-heading">
+      <h2 class="heading">Languages</h2>
+    </div>
+    <div class="languages">
+      <div class="container">
+        <h2>Tamil</h2>
+      </div>
+      <div class="container">
+        <h2>English</h2>
+      </div>
+      <div class="container">
+        <h2>Malayalam</h2>
+      </div>
+      <div class="container">
+        <h2>Hindi</h2>
+      </div>
+    </div>
+
+    <div class="section-heading">
+      <h2 class="heading">Hobbies</h2>
+    </div>
+    <div class="hobbies">
+      <div><ul>
+        <li><h4>Reading</h4></li>
+      </ul></div>
+      <div><ul>
+        <li><h4>Programming</h4></li>
+      </ul></div>
+      <div><ul>
+        <li><h4>Mobile Gaming</h4></li>
+      </ul></div>
+      <div><ul>
+        <li><h4>Cricket</h4></li>
+      </ul></div>
+      <div><ul>
+        <li><h4>Poem Writing</h4></li>
+      </ul></div>
+      <div><ul>
+        <li><h4>Teaching</h4></li>
+      </ul></div>
+      <div><ul>
+        <li><h4>Drawing</h4></li>
+      </ul></div>
+    </div>
+    
+    <div class="section-heading">
+      <h2 class="heading">Contact</h2>
+    </div>
+    <div class="contact-info">
+      <p>
+        <a href="tel:+91 8838040929"><i class="fa-solid fa-user-plus"></i> 8838040929</a><br>
+        <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=GTvVlcSBmmBZjHmdPZlpcKsQtKBRfvhvDmTbpxbVSDqqMSzKxtFCzThsKHFqlJrxNMRHtGXklmhQh"><i class="fa-solid fa-envelope">  dhanushbharathi20@gmail.com</i></a> <br>
+        <i class="fa-solid fa-location-dot">1/92, South st. , idaikal , Ambasamudram , Tirunelveli - 627602</i>
+      </p>
+    </div>
+    <div class="social">
+      <div> <a href="https://www.instagram.com/royalian_2.8_/"><i class="fa-brands fa-instagram"></i></a></div>
+      <div><a href="https://www.facebook.com/don.dhanush.180/"><i class="fa-brands fa-facebook"></i></a></div>
+      <div><a href="https://github.com/DhanushBharathi"><i class="fa-brands fa-github"></i></a></div>
+      <div><a href="https://youtube.com/@brotherhoodgaming4721"><i class="fa-brands fa-youtube"></i></a></div>
+    </div>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
